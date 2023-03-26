@@ -1,0 +1,17 @@
+.nav {
+  @apply fixed inset-x-0 top-0 w-full border-b-2 border-b-primary bg-stone-200 bg-opacity-50 text-primary backdrop-blur-xl transition-all duration-300;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+}
+
+.nav-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-100px);
+}
