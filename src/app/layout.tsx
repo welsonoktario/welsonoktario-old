@@ -65,7 +65,7 @@ const sentient = localFont({
   ],
 })
 const fraktionMono = localFont({
-  src: '../assets/fonts/PPFraktionMono-regular.otf',
+  src: '../assets/fonts/PPFraktionMono-Regular.otf',
   variable: '--font-fraktion',
   display: 'swap',
 })
