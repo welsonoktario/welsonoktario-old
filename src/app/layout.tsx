@@ -104,7 +104,7 @@ export default function RootLayout({
       lang="en"
       className={`${plusJakarta.variable} ${sentient.variable} ${fraktionMono.variable}`}
     >
-      <body className="bg-stone-200">
+      <body className="bg-[#F4F3EE]">
         <ReactLenis root>
           <LayoutHeader />
           <main className="container mx-auto px-8">{children}</main>

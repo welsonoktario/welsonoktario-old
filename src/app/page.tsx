@@ -8,7 +8,7 @@ import {
 import gsap from 'gsap'
 import { useEffect, useRef } from 'react'
 
-export default function Home() {
+export default function Page() {
   const ctxRoot = useRef<HTMLDivElement>(null)
   const helloRef = useRef<HTMLDivElement>(null)
   const workRef = useRef<HTMLDivElement>(null)
