@@ -6,12 +6,6 @@ import '@/styles/globals.css'
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import localFont from 'next/font/local'
 
-/* export const metadata = {
-  title: 'Welson Oktario',
-  description:
-    'Welson Oktario personal website, a web developer focusing on frontend web technologies',
-} */
-
 const plusJakarta = localFont({
   src: [
     {
@@ -104,7 +98,7 @@ export default function RootLayout({
       lang="en"
       className={`${plusJakarta.variable} ${sentient.variable} ${fraktionMono.variable}`}
     >
-      <body className="bg-[#F4F3EE]">
+      <body className="bg-white">
         <ReactLenis root>
           <LayoutHeader />
           <main className="container mx-auto px-8">{children}</main>
